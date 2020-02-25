@@ -6,6 +6,11 @@ import 'codelab_widget_container.dart';
 import 'codelab_widget_stack.dart';
 import 'codelab_widget_scaffold.dart';
 import 'codelab_layout_example_1.dart';
+import 'codelab_widget_aspectration.dart';
+import 'codelab_widget_wrap.dart';
+import 'codelab_widget_table.dart';
+import 'codelab_widget_listview.dart';
+import 'codelab_widget_constrainedbox.dart';
 
 void main() {
   //runApp(MyApp());
@@ -14,17 +19,18 @@ void main() {
   //runApp(CodelabWidgetContainer());
   //runApp(CodelabWidgetStack());
   //runApp(CodelabWidgetScaffold());
-  runApp(CodelabLayoutExample1());
-
+  //runApp(CodelabLayoutExample1());
+  //runApp(CodelabWidgetAspectRation());
+  //runApp(CodelabWidgetWrap());
+  //runApp(CodelabWidgetTable());
+  //runApp(CodelabWidgetListView());
+  runApp(CodelabWidgetConstrainedBox());
 }
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Welcome to Flutter',
-      home: RandomWords()
-    );
+    return MaterialApp(title: 'Welcome to Flutter', home: RandomWords());
   }
 }
 
@@ -68,6 +74,7 @@ class RandomWordsState extends State<RandomWords> {
       return buildListViewItem(_wordPairs[index]);
     });
   }
+
   Widget buildListViewItem(WordPair pair) {
     return ListTile(
       title: Text(
