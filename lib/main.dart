@@ -15,6 +15,10 @@ import 'codelab_material_widget_sliverappbar.dart';
 import 'codelab_widget_slivers.dart';
 import 'codelab_material_widget_drawer.dart';
 import 'codelab_material_widget_pageview.dart';
+import 'codelab_material_widget_buttons.dart';
+import 'codelab_widget_navigator.dart';
+import 'codelab_material_widget_bottomnavigationbar.dart';
+import 'codelab_material_widget_tabbar.dart';
 
 
 void main() {
@@ -33,7 +37,11 @@ void main() {
   //runApp(CodelabMaterialWidgetSliverAppBar());
   //runApp(CodelabWidgetSlivers());
   //runApp(CodelabMatrialWidgetDrawer());
-  runApp(CodelabMaterialWidgetPageView());
+  //runApp(CodelabMaterialWidgetPageView());
+  //runApp(CodelabMaterialWidgetButtons());
+  //runApp(CodelabWidgetNavigator());
+  //runApp(CodelabMaterialWidgetBottomNavigationBar());
+  runApp(CodelabMaterialWidgetTabBar());
 
 }
 
