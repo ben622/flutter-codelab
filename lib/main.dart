@@ -19,6 +19,10 @@ import 'codelab_material_widget_buttons.dart';
 import 'codelab_widget_navigator.dart';
 import 'codelab_material_widget_bottomnavigationbar.dart';
 import 'codelab_material_widget_tabbar.dart';
+import 'codelab_material_widget_dialogs.dart';
+
+import 'codelab_json.dart';
+import 'codelab_json_serializable.dart';
 
 
 void main() {
@@ -41,7 +45,10 @@ void main() {
   //runApp(CodelabMaterialWidgetButtons());
   //runApp(CodelabWidgetNavigator());
   //runApp(CodelabMaterialWidgetBottomNavigationBar());
-  runApp(CodelabMaterialWidgetTabBar());
+  //runApp(CodelabMaterialWidgetTabBar());
+  //runApp(CodelabMaterialWidgetDialogs());
+  //runApp(CodelabJson());
+  runApp(CodelabJsonSerializable());
 
 }
 
