@@ -23,6 +23,8 @@ import 'codelab_material_widget_dialogs.dart';
 
 import 'codelab_json.dart';
 import 'codelab_json_serializable.dart';
+import 'codelab_http.dart';
+import 'codelab_localization.dart';
 
 
 void main() {
@@ -48,7 +50,9 @@ void main() {
   //runApp(CodelabMaterialWidgetTabBar());
   //runApp(CodelabMaterialWidgetDialogs());
   //runApp(CodelabJson());
-  runApp(CodelabJsonSerializable());
+  //runApp(CodelabJsonSerializable());
+  //runApp(CodelabHttp());
+  runApp(CodelabLocalization());
 
 }
 
